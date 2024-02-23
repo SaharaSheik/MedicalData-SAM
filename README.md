@@ -1,3 +1,23 @@
+# FineT Tuning SAM for Medical Data
+Precise segmentation of medical images is essential for accurate diagnosis and successful
+planning of therapy. In many medical image segmentation tasks, the U-shaped architecture,
+commonly known as U-Net and conventional segmentation techniques often encounter
+difficulties when dealing with the intricate and diverse nature of medical imaging. Furthermore,
+U-Net architects often face challenges in explicitly modeling long-range dependencies due to the
+inherent locality of convolution operations. Additionally, such architects normally require large
+annotated training dataset, a task that is often difficult given challenges present in the labor
+intensive essence of medical image annotation.
+The objective of this work is to use the Segment Anything Model (SAM) on medical imaging
+datasets in order to enhance the accuracy and efficiency of segmentation. The preparation of a
+large number of datasets and the acquisition of masks for each of them consisted of the most
+significant obstacle. We conducted two separate experimentations one using SAM’s own pretarined checkpoints provided in repository and one by fine tuning the last decoder layer.
+The quality and accuracy of the segmentation were quantitatively evaluated using the
+Intersection Over Union (IOU) metric. In general terms, SAM demonstrates the potential for use
+in the field of medical images, provided that appropriate prompting mechanisms are utilized for
+the dataset and tasks of choice.
+
+
+
 # Segment Anything
 
 **[Meta AI Research, FAIR](https://ai.facebook.com/research/)**
