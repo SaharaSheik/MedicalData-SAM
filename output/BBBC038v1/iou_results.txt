@@ -1,0 +1,1 @@
+Overall Mean IoU: 084893

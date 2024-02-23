@@ -1,0 +1,13 @@
+opencv-python
+pycocotools
+matplotlib
+onnxruntime
+onnx
+torch
+torchvision
+tifffile
+patchify
+scipy
+transformers
+monai
+dataset
